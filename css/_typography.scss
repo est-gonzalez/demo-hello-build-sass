@@ -1,0 +1,14 @@
+@use 'colors' as *;
+@use 'mixins' as *;
+
+h1 {
+    font-size: 7.8125rem;
+    color: $blue;
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}

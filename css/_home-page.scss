@@ -1,0 +1,25 @@
+@use 'colors' as *;
+@use 'mixins' as *;
+
+section {
+    width: 300px;
+    margin: 0 auto;
+    @include break(med) {
+        width: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .col {
+        background-color: $white;
+        text-align: center;
+        font-size: 1.125rem;
+        margin-bottom: 2.25rem;
+        padding-bottom: 2.25rem;
+        img {
+            margin-bottom: 2.25rem;
+            li {
+                line-height: 2.25rem;
+            }
+        }
+    }
+}

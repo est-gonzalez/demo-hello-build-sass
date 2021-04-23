@@ -1,0 +1,32 @@
+@use 'colors' as *;
+@use 'mixins' as *;
+
+header {
+    background-color: $white;
+    margin: 2.3125rem 0;
+    padding: 0 1 rem 4.375rem 1rem;
+}
+
+.callout {
+    text-align: center;
+    p {
+        font-size: 2rem;
+        font-weight: bold;
+        color: $grey;
+    }
+    span {
+        color: $blue;
+    }
+    a {
+        background-color: $orange;
+        color: $white;
+        text-decoration: none;
+        font-size: 1.5rem;
+        padding: 0.375rem;
+        border: 2px solid $orange;
+        &:hover {
+            background-color: $white;
+            color: $hover-grey;
+        }
+    }
+}

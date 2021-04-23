@@ -1,0 +1,17 @@
+@use 'colors' as *;
+@use 'mixins' as *;
+
+body {
+    background-color: $lg-grey;
+    font-size: 100%;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $dk-grey;
+}
+
+.container {
+    @include break(med) {
+        width: 960px;
+        margin: 0 auto;
+    }
+}
